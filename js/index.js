@@ -69,7 +69,7 @@ window.onload=function () {
         // 分割线
         horizontal:/(^\s*|\n[\s]*)-[\x20\t\f]*-[\x20\t\f]*-[\x20\t\f]*(-|[\x20\t\f])*(?=\n|$)/g,
         // 行内代码
-        inlineCode:/([^\\]|^)`(.+?[^\\])`/g,
+        inlineCode:/([^\\]|^)`(.*?[^\\])`/g,
         // 代码块
         blockCode:/(^\s*|\n[\s]*)```[\s]*\n([^]*?)```/g,
         // 段落
